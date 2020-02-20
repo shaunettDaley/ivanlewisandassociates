@@ -1,0 +1,144 @@
+header{
+    background:url('../images/tax7.jpg');
+    background-size:cover;
+    background-position:center;
+    min-height:600px;
+}
+
+span.experience {
+    position: absolute;
+    z-index: 99999;
+    top: 107px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    display: inline-block;
+ 
+}
+
+span.experience img {
+    width: 110%;
+    max-width: 200px;
+}
+
+.dropdown-content {
+    z-index: 999999;
+}
+
+nav .brand-logo {
+font-size:1.5rem;
+}
+
+span.info {
+    position: relative;
+    translate: transform(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 37%;
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #fff;
+ 
+}
+.cta2 {
+    width: 250px;
+    height: 300px;
+    background: #ccc;
+    opacity: 0.5;
+    border-radius: 25px;
+    position: absolute;
+    right: 25%;
+    bottom: 0;
+    animation-name:moving2;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;  
+    box-shadow:4px 4px 4px #000;
+    text-align:center;
+}
+
+.cta1 {
+    border-radius: 2px solid #000;
+    border-radius: 10px;
+    background: #ccc;
+    opacity: 0.5;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    animation-name:moving;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;  
+    box-shadow:4px 4px 4px #000;
+    text-align:center;
+}
+
+
+@keyframes moving{
+  0% {bottom:0%};
+  25% {bottom:5%;}
+  50% {bottom:10%;}
+  75% {bottom:20%;}
+  100% {bottom:30%;}
+}
+
+@keyframes moving2{
+    0% {bottom:0%};
+    25% {bottom:5%;}
+    50% {bottom:10%;}
+    75% {bottom:20%;}
+    100% {bottom:30%;}
+  }
+
+
+  .cta-mobile {
+    width: 296px;
+    height: 39px;
+    background: #ccc;
+    opacity: 0.5;
+    top:259px;
+    position: absolute;
+    right: 25%;
+    bottom: 0;
+    /*animation-name: moving2;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;*/
+    box-shadow: 4px 4px 4px #000;
+    text-align: center;
+}
+
+
+.cta-mobile span.info {
+    position: relative;
+    translate: transform(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 26%;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #000;
+}
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 110%;
+    margin: 0.9rem 0 1.68rem 0;
+    text-align:center;
+}
+
+@media screen and (max-width:670px){
+
+    header{
+        min-height:300px;
+    }
+
+    nav .brand-logo {
+        font-size:1rem;
+        }
+}
