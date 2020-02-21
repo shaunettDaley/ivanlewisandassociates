@@ -1,8 +1,8 @@
 header{
-    background:url('../images/tax7.jpg');
+    background:url('../images/tax3.jpg');
     background-size:cover;
     background-position:center;
-    min-height:600px;
+    min-height:700px;
 }
 
 span.experience {
@@ -19,7 +19,7 @@ span.experience {
 }
 
 span.experience img {
-    width: 110%;
+    width: 200px;
     max-width: 200px;
 }
 
@@ -29,6 +29,7 @@ span.experience img {
 
 nav .brand-logo {
 font-size:1.5rem;
+text-shadow: 4px 4px 4px #000;
 }
 
 span.info {
@@ -37,18 +38,18 @@ span.info {
     transform: translate(-50%,-50%);
     top: 37%;
     font-weight: 700;
-    font-size: 2rem;
-    text-shadow: 2px 2px 2px #fff;
+    font-size: 1rem;
+  
  
 }
 .cta2 {
-    width: 250px;
-    height: 300px;
+    width: 450px;
+    height: 80px;
     background: #ccc;
     opacity: 0.5;
-    border-radius: 25px;
+   /* border-radius: 25px;*/
     position: absolute;
-    right: 25%;
+    right: 0;
     bottom: 0;
     animation-name:moving2;
     animation-duration: 4s;
@@ -57,34 +58,52 @@ span.info {
     animation-direction: alternate;  
     box-shadow:4px 4px 4px #000;
     text-align:center;
+    top:25%;
+    display:none;
 }
 
 .cta1 {
-    border-radius: 2px solid #000;
-    border-radius: 10px;
-    background: #ccc;
-    opacity: 0.5;
-    width: 250px;
+    /*border-radius: 2px solid #000;
+    border-radius: 10px;*/
+    /*background: #ccc;
+    opacity: 0.5;*/
+    width: 450px;
     height: 300px;
     position: absolute;
-    left: 25%;
+    left: 279px;
     bottom: 0;
     animation-name:moving;
     animation-duration: 4s;
     animation-delay: 2s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 2;
     animation-direction: alternate;  
     box-shadow:4px 4px 4px #000;
     text-align:center;
+    top:23%;
 }
 
+.title {
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px gold;
+}
+
+span.info ul {
+    text-align: left;
+    /* padding: 20px; */
+    padding-left: 51px;
+}
+
+.inset {
+    -webkit-box-shadow: inset 0 2px 3px 0 rgba(0,0,0,0.12);
+     box-shadow: inset 0 2px 3px 0 rgba(0,0,0,0.12); 
+     height:300px;
+     background:tan;
+}
 
 @keyframes moving{
-  0% {bottom:0%};
-  25% {bottom:5%;}
-  50% {bottom:10%;}
-  75% {bottom:20%;}
-  100% {bottom:30%;}
+  from {background-color:black; opacity:2;color:#fff;};
+  to {background-color:yellowgreen; opacity:2; color:#fff;}
+
 }
 
 @keyframes moving2{
@@ -132,6 +151,30 @@ span.info {
     text-align:center;
 }
 
+@media screen and (max-width:1366px){
+    .cta1{
+        top:25%;
+    }
+
+    header{
+        min-height:600px;
+    }
+
+    .cta1{
+        left:149px;
+        width:365px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    span.experience img {
+        width: 150px;
+        max-width: 200px;
+    }
+}
+
 @media screen and (max-width:670px){
 
     header{
@@ -140,5 +183,10 @@ span.info {
 
     nav .brand-logo {
         font-size:1rem;
+        }
+
+        span.experience img {
+            width: 100%;
+            max-width: 200px;
         }
 }
