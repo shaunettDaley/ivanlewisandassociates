@@ -56,7 +56,7 @@ span.info {
     animation-delay: 4s;
     animation-iteration-count: 1;
     animation-direction: alternate;  
-    box-shadow:4px 4px 4px #000;
+   /* box-shadow:4px 4px 4px #000;*/
     text-align:center;
     top:25%;
     display:none;
