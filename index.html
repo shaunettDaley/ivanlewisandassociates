@@ -83,7 +83,7 @@
                 <li><i class="material-icons">check</i>Peace of Mind</li>
                 <li> <i class="material-icons">check</i>Satisfaction</li>
             </ul>
-            <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>Request Appointment</a>
+            <!--<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>Request Appointment</a>-->
 
   </span>
     </div>
@@ -96,10 +96,62 @@
         <span class="info">Affordable, Reliable &amp; Peace of mind</span>
     </div>
 </header>
+<section class="icons-info">
+  <div class="row container sub-section">
+    <div class="col s12 l3 requestApt">
+      <button class="btn waves-effect waves-light" type="submit" name="action">Request Appointment
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
+    <div class="col s12 l3 smallNav">
+      <div class="row">
+        <div class="col s12 l2 smallIcon">
+            <i class="material-icons right">cloud</i>
+        </div>
+        <div class="col s12 l10">
+            Tax Services<br>
+            Account<br>
+            Other Services
+        </div>
+        
+    </div>
+    </div>
+
+    <div class="col s12 l3 smallNav">
+      <div class="row">
+        <div class="col s12 l2 smallIcon">
+            <i class="material-icons right">location_on</i>
+        </div>
+        <div class="col s12 l10">
+          Unknow Address<br/>
+          Lauderhill, Fl<br/>
+          33309
+       </div>
+       
+        
+    </div>
+    </div>
+
+    <div class="col s12 l3 smallNav">
+      <div class="row">
+        <div class="col s12 l2 smallIcon">
+            <i class="material-icons right">chat</i>
+        </div>
+        <div class="col s12 l10">
+          T:(xxx)xxx-xxxx<br>
+          Aemail@email.com<br>
+          Other Services
+      </div>
+        
+    </div>
+    </div>
+  </div>
+</section>
   <!-- photo / grid -->
 <section class="container welcome">
     <div class="row">
         <div class="col s12">
+      
             <h1>Welcome To Ivan Lewis & Associates</h1>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -115,8 +167,11 @@
     </div>
 </section>
   <!-- parallax -->
-<section class="inset">
-  test
+<section class="inset parallax">
+  <span class="par-info">
+    Certified &amp; Trustworthy
+   
+   </span>
 </section>
   <!-- services / tabs -->
   <section class="container welcome">
@@ -157,6 +212,8 @@
 
   <!-- footer -->
 
+
+
   <!-- Compiled and minified JavaScript -->
   <script src="js/sandbox.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -176,6 +233,9 @@
  
   });
 
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  })
   
   /*
     $(document).ready(function(){

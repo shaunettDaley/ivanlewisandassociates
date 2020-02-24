@@ -16,3 +16,14 @@ document.addEventListener('scroll', () => {
 
 })
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tap-target');
+    var instances = M.TapTarget.init(elems);
+  });
+
+/*
+  $(document).ready(function(){
+    $('.tap-target').tapTarget();
+  });
+  */    

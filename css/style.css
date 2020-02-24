@@ -1,3 +1,37 @@
+
+.col.s12.l3.smallNav {
+    line-height: 18px;
+    text-align: left;
+    position:relative;
+}
+
+
+section.icons-info {
+    /* height: 50px; */
+    background: #000;
+    color: #fff;
+    text-align: center;
+    /*line-height: 30px;*/
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+.col.s12.l2.smallIcon {
+    position: relative;
+    display: inline-block;
+    top: 11px;
+}
+
+.col.s12.l3.requestApt {
+    text-align: left;
+}
+
+.sub-section{
+    position: relative;
+    top: 21px;
+}
+
 header{
     background:url('../images/tax3.jpg');
     background-size:cover;
@@ -8,12 +42,12 @@ header{
 span.experience {
     position: absolute;
     z-index: 99999;
-    top: 107px;
-    left: 0;
+    top: 393px; /*107px;*/
+    left:605px; /* 0;*/
     right: 0;
     margin: 0 auto;
     display: block;
-    width: 100px;
+   width: 100px;
     display: inline-block;
  
 }
@@ -72,14 +106,14 @@ span.info {
     position: absolute;
     left: 279px;
     bottom: 0;
-    animation-name:moving;
+   /* animation-name:moving;*/
     animation-duration: 4s;
     animation-delay: 2s;
     animation-iteration-count: 2;
     animation-direction: alternate;  
-    box-shadow:4px 4px 4px #000;
+    box-shadow:4px 4px 4px 4px #000;
     text-align:center;
-    top:23%;
+    top:20%; /*23%;*/
 }
 
 .title {
@@ -153,18 +187,32 @@ span.info ul {
     text-align:center;
 }
 
+
+span.par-info {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding-top: 123px;
+    color: #fff;
+}
+
 @media screen and (max-width:1366px){
     .cta1{
-        top:25%;
+        top:20%; /*25%;*/
     }
 
     header{
-        min-height:600px;
+        min-height:488px; /*600px;*/
     }
 
     .cta1{
         left:149px;
         width:365px;
+        height:260px; /*277px;*/
     }
 
     .title {
@@ -175,9 +223,53 @@ span.info ul {
         width: 150px;
         max-width: 200px;
     }
+
+    section.icons-info {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    span.experience {
+        top: 318px;
+        left: 426px;
+      /*  width: 100%; */
+    }
 }
 
+@media screen and (max-width:1024px){
+    .cta1.hide-on-med-and-down.z-depth-5 {
+        top: 108px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    .col.s12.l3.smallNav {
+        line-height: 18px;
+        text-align: center;
+        border-bottom-color: #fff;
+        border-bottom: dotted;
+    }
+
+    .col.s12.l3.requestApt {
+        text-align: center;
+        border-bottom-color: #fff;
+        border-bottom: dotted;
+       padding-bottom:10px;
+    }
+
+}
+
+
 @media screen and (max-width:670px){
+
+   /* .col.s12.l3.smallNav {
+        line-height: 18px;
+        text-align: center;
+        border-bottom-color: #fff;
+        border-bottom: dotted;
+    }*/
 
     header{
         min-height:300px;
@@ -190,5 +282,9 @@ span.info ul {
         span.experience img {
             width: 100%;
             max-width: 200px;
+        }
+
+        span.experience {
+            display: none !important;
         }
 }
