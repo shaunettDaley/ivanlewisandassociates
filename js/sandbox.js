@@ -1,16 +1,16 @@
 let cta1 = document.querySelector('.cta1');
 let cta2 = document.querySelector('.cta2');
-
+let navbar = document.querySelector('nav');
 
 document.addEventListener('scroll', () => {
     let scrollPosition = window.scrollY;
-
-    if(scrollPosition > 50){
-        cta1.style.bottom = "25%";
-        cta2.style.bottom = "25%";
+    if(scrollPosition > 100){
+        navbar.classList.add('transparentChange');
+        navbar.classList.remove('transparent');
     }else{
-        cta1.style.bottom = "0px";
-        cta2.style.bottom = "0px";
+      
+      navbar.classList.add('transparent');
+      navbar.classList.remove('transparentChange');
     }
 
 

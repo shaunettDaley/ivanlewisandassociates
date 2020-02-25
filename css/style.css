@@ -1,4 +1,30 @@
 
+h3{
+    font-size:1.92rem;
+
+}
+
+
+.far, .fas, .fab {
+    text-shadow: 2px 2px 2px #000;
+    color: green;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.transparentChange{
+    background-color:#000 !important;
+}
+footer.footer-info {
+    display: block;
+    background:#000;
+    color: #fff;
+    text-align: center;
+    height:200px;
+}
+
+
 .col.s12.l3.smallNav {
     line-height: 18px;
     text-align: left;
