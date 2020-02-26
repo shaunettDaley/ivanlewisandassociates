@@ -4,10 +4,27 @@ h3{
 
 }
 
+button.btn.waves-effect.waves-light {
+    background: #ffa500;
+}
+
+h5 {
+    font-size: 1.5rem;
+
+}
+
+.rotated {
+    border-radius: 10px;
+    color: #fff;
+    background: #000;
+    position: absolute;
+    right: 20px;
+    box-shadow: 2px 2px 2px;
+}
 
 .far, .fas, .fab {
     text-shadow: 2px 2px 2px #000;
-    color: green;
+    color: orange;
     font-weight: bold;
     font-size: 50px;
     padding-top: 40px;
@@ -51,6 +68,8 @@ section.icons-info {
 
 .col.s12.l3.requestApt {
     text-align: left;
+  /*  position: relative;
+    left: -41px;*/
 }
 
 .sub-section{
@@ -62,7 +81,7 @@ header{
     background:url('../images/tax3.jpg');
     background-size:cover;
     background-position:center;
-    min-height:700px;
+    min-height: 773px; /*700px;*/
 }
 
 span.experience {
@@ -283,6 +302,17 @@ span.par-info {
         border-bottom-color: #fff;
         border-bottom: dotted;
        padding-bottom:10px;
+    }
+
+    i.material-icons.right.section-icons {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -43px;
+    }
+
+    .col.s12.l3.smallNav {
+        padding-top: 38px;
     }
 
 }
