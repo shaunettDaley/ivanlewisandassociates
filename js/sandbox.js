@@ -26,4 +26,11 @@ document.addEventListener('DOMContentLoaded', function() {
   $(document).ready(function(){
     $('.tap-target').tapTarget();
   });
-  */    
+  */  
+ 
+  
+  /* scroll page back to top */
+  let scrolltotop = document.querySelector('.backToTop');
+  scrolltotop.addEventListener('click', () => {
+    scrollTo(0,0);
+  })
