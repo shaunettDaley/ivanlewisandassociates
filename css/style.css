@@ -4,6 +4,32 @@ h3{
 
 }
 
+section.inset.sub-pages {
+    height: 150px;
+}
+
+.par-info img {
+    width: 100px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 25%;
+}
+
+section.inset.sub-pages {
+    margin-top: 174px;
+    /* padding-top: 30px; */
+}
+
+
+
+
+nav ul a{
+    color:orange;
+    font-weight:bolder;
+}
+
 button.btn.waves-effect.waves-light {
     background: #ffa500;
 }
@@ -28,6 +54,12 @@ h5 {
     font-weight: bold;
     font-size: 50px;
     padding-top: 40px;
+}
+
+.top {
+    padding-top: 0px;
+    font-size: 32px;
+    padding-left:5px;
 }
 
 .transparentChange{
@@ -83,6 +115,8 @@ header{
     background-position:center;
     min-height: 773px; /*700px;*/
 }
+
+
 
 span.experience {
     position: absolute;

@@ -34,3 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
   scrolltotop.addEventListener('click', () => {
     scrollTo(0,0);
   })
+
+
+  /* change background for about us */
+  let about = document.querySelector('.about');
+  document.addEventListener('DOMContentLoaded', () => {
+    about.style.backgroundImage = "url('./images/cust.jpg')";
+  })
