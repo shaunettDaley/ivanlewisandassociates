@@ -41,3 +41,10 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('DOMContentLoaded', () => {
     about.style.backgroundImage = "url('./images/cust.jpg')";
   })
+
+
+  //collapse
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems);
+  });
