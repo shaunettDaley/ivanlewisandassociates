@@ -298,6 +298,13 @@ span.par-info {
     color: #fff;
 }
 
+@media screen and (max-width:1600px){
+    header{
+        min-height:594px; /*600px;*/
+    }
+
+}
+
 @media screen and (max-width:1366px){
     .cta1{
         top:20%; /*25%;*/
