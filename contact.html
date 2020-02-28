@@ -45,31 +45,8 @@
   </ul>
   <div class="navbar-fixed">
     <nav class="nav-wrapper transparent">
-        <div class="container">
-          <a href="#" class="brand-logo">Ivan Lewis & Associates Inc.</a>
-          <a href="" class="sidenav-trigger" data-target="mobile-menu">
-              <i class="material-icons">menu</i>
-          </a>
-          
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">About</a></li>
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown-mobile">Services<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="https://sa.www4.irs.gov/irfof/lang/en/irfofgetstatus.jsp" target="_blank">Refund Status</a></li>
-            <li><a href="collapsible.html">Resources</a></li>
-            <li><a class="dropdown-trigger" href="#!" data-target="contactInfo-mobile">Contact<i class="material-icons right">arrow_drop_down</i></a></li>
-          </ul>
-
-          <!--mobile version-->
-          
-         <ul class="sidenav grey lighten-2" id="mobile-menu">
-         <li><a href="sass.html">About</a></li>
-         <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Services<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li><a href="badges.html">Refund Status</a></li>
-         <li><a href="collapsible.html">Resources</a></li>
-         <li><a class="dropdown-trigger" href="#!" data-target="contactInfo">Contact<i class="material-icons right">arrow_drop_down</i></a></li>
-         
-         </ul>
-        </div>
+       <!--nav start here-->
+       <div w3-include-html="nav.html"></div>
       </nav>
     </div>
       <!--call out boxes-->
@@ -97,80 +74,72 @@
         <span class="info">Affordable, Reliable &amp; Peace of mind</span>
     </div>
 </header>
-<section class="icons-info">
-  <div class="row container sub-section">
-    <div class="col s12 l3 requestApt">
-      <button class="btn waves-effect waves-light" type="submit" name="action">Request Appointment
-        <i class="material-icons right">send</i>
-      </button>
-    </div>
-    <div class="col s12 l3 smallNav">
-      <div class="row">
-        <div class="col s12 l2 smallIcon">
-            <i class="material-icons right section-icons">cloud</i>
-        </div>
-        <div class="col s12 l10">
-            Tax Services<br>
-            Account<br>
-            Other Services
-        </div>
-        
-    </div>
-    </div>
+<!--mini sub nav start here-->
+<div w3-include-html="header.html"></div>
 
-    <div class="col s12 l3 smallNav">
-      <div class="row">
-        <div class="col s12 l2 smallIcon">
-            <i class="material-icons right section-icons">location_on</i>
-        </div>
-        <div class="col s12 l10">
-          3500 N State Rd 7 <br/>Suite 205<br/>
-          Fort Lauderdale, FL 33319
-       </div>
-       
-        
-    </div>
-    </div>
 
-    <div class="col s12 l3 smallNav">
-      <div class="row">
-        <div class="col s12 l2 smallIcon">
-            <i class="material-icons right section-icons">chat</i>
-        </div>
-        <div class="col s12 l10">
-          T:954-717-8892<br>
-          Aemail@email.com<br>
-          Other Services
-      </div>
-        
-    </div>
-    </div>
-  </div>
-</section>
   <!-- photo / grid -->
 <section class="container welcome">
     <div class="row">
         <div class="col s12">
       
-            <h1>Stay in contact with  Ivan Lewis & Associates</h1>
+            <h1>Stay in contact with us !</h1>
             <p>
               Please stay in touch with us by using any of the communication method. If you reach out to us via email please 
               give us atleast 24 hours to reply. Otherwise we wil try to  reply to everyone throughout the day.
             </p>
-            
+     
         </div>
     </div>
-</section>
+</section><br/><br/>
 
 <section class="container welcome">
     <div class="row">
         <div class="col s12 l6">
-      address
+          <strong>
+          Ivan Lews & Associates<br/>
+          3500 N State Rd 7 <br/>Suite 205<br/>
+          Fort Lauderdale, FL 33319
+        </strong>
+          <hr/>
+          <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.8190213815046!2d-80.2046453854954!3d26.170022897967005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d906a4f69ad281%3A0x6fb88427a4bf2acb!2s3500%20N%20State%20Rd%207%20%23205%2C%20Lauderdale%20Lakes%2C%20FL%2033309!5e0!3m2!1sen!2sus!4v1582602239170!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </p>
+
+
             
         </div>
-        <div class="col s12 l6">
-      social Info
+        <div class="col s12 l6 center">
+      <h2 class="contact-h2"> Reach out to us using any of the following methods:-</h2>
+           <div class="row contactInfo">
+             <div class="col s6 l3">
+              <a href="mailto:#" title="Send Me An Email Now" target="_blank"><i class="far fa-envelope contact-icon" aria-hidden="true"></i></a><br/> <span class="boldnow">Email</span>
+             </div>
+             <div class="col s6 l3">
+              <a href="https://wa.me/9543940847/?text=booking%20request" title="Reach out to me via whatsapp" target="_blank"><i class="fab fa-whatsapp contact-icon" aria-hidden="true"></i></a><br/><span class="boldnow">Whatsapp</span>
+             </div> <div class="col s6 l3">
+              <a href="tel:+9543940847" title="Call Me Now" target="_blank"><i class="fas fa-mobile-alt contact-icon" aria-hidden="true"></i></a><br/><span class="boldnow">Call</span>
+             </div>
+             <div class="col s6 l3">
+              <a href="sms:+9543940847&amp;body=requesting%20your%20services" title="Send me a text now" target="_blank"><i class="fas fa-sms contact-icon" aria-hidden="true"></i></a><br/><span class="boldnow">Text</span>
+             </div>
+
+           </div> 
+           <hr>
+           <h2 class="contact-h2"> Follow us and stay connected!</h2>
+           <div class="row contactInfo">
+            <div class="col s4 l4">
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col s4 l4">
+        <a href="https://www.facebook.com/#" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            </div> 
+            <div class="col s4 l4">
+        <a href="https://www.instagram.com/#" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
             
+
+          </div> 
         </div>
     </div>
 </section>
@@ -184,45 +153,12 @@
 </section>
   <!-- contact form -->
 
-  <!-- footer -->
-  <footer class="page-footer orange">
+   <!-- footer -->
+  
+   <footer class="page-footer orange">
     <span class="backToTop"><i class="material-icons rotated animated slow bounce delay-2s">arrow_upward</i></span>
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">We Care!</h5>
-          <p class="grey-text text-lighten-4">We are here to provide you with the best services, with over 25 yearsof experience.
-            Just ask the question and we will guide you on the right path.
-          
-          </p>
-
-
-        </div>
-        <div class="col l3 s6">
-          <h5 class="white-text">Navigation</h5>
-          <ul>
-            <li><a class="white-text" href="#!">About Us</a></li>
-            <li><a class="white-text" href="#!">Tax Preparation</a></li>
-            <li><a class="white-text" href="#!">Accounting Services</a></li>
-            <li><a class="white-text" href="https://sa.www4.irs.gov/irfof/lang/en/irfofgetstatus.jsp" target="_blank">Refund Status</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s6">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="#">Shaunett Daley - Innovations Design Technology - (754)251-7130</a> 
-      </div>
-    </div>
+    <div w3-include-html="footer.html"></div>
+   
   </footer>
 
 

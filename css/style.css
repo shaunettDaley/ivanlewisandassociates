@@ -4,6 +4,25 @@ h3{
 
 }
 
+h5.services-h5 {
+    font-weight: bolder;
+    color: orange;
+}
+
+.service-h5:before{
+    content:"*"
+}
+
+.boldnow{
+    font-weight:bold;
+   text-align:center;
+}
+.contact-h2{
+    font-size:1.3rem;
+    font-weight:bold;
+    text-align:center;
+}
+
 section.inset.sub-pages {
     height: 150px;
 }
@@ -367,6 +386,9 @@ span.par-info {
 
     nav .brand-logo {
         font-size:1rem;
+        color:#fff;
+        text-shadow:none;
+        font-weight:bold;
         }
 
         span.experience img {
