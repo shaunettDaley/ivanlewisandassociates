@@ -168,7 +168,7 @@ span.info {
     position: relative;
     translate: transform(-50%,-50%);
     transform: translate(-50%,-50%);
-    top: 37%;
+    /*top: 37%;*/
     font-weight: 700;
     font-size: 1rem;
   
