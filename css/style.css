@@ -1,3 +1,18 @@
+span.form-style {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+.collapsible-header {
+    font-weight: bold;
+}
+
+
+a.header-nav {
+    color: #fff !important;
+}
 
 h3{
     font-size:1.92rem;
