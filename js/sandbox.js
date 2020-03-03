@@ -3,6 +3,7 @@ let cta2 = document.querySelector('.cta2');
 let navbar = document.querySelector('nav');
 //let logo = document.querySelector('.brand-logo ');
 
+
 document.addEventListener('scroll', () => {
     let scrollPosition = window.scrollY;
     if(scrollPosition > 100){
@@ -44,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
   /* change background for about us */
   let about = document.querySelector('.about');
   document.addEventListener('DOMContentLoaded', () => {
-    about.style.backgroundImage = "url('./images/cust.jpg')";
+   // about.style.backgroundImage = "url('./images/cust.jpg')";
   })
 
 
