@@ -88,3 +88,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   includeHTML();
+
+
+//testimonal slides show
+let testimonal_slide = document.querySelector('.testimonal-slides');
+let i = 0;
+let timer = 3000;
+let slideInfo = [];
+
+sliderInfo[0] = " Thank you Mr. Lewis we appreciate your service and your professionality ";
+sliderInfo[1] = " You are the best around time ";
+sliderInfo[2] = " Affordable, Reliable, Professional and Straightforward. Keep it up Mr Lewis ";
+sliderInfo[3] = " You are one of kind , we love and appreciate you ";
+
+let slideshow = () => {
+if( i < slideInfo.lenght-1){
+testimonal_slide.textContent = sliderInfo[i];
+
+}else{
+    
+    i = 0;
+}
+setTimeout(()=> {
+   slideshow(); 
+    
+}.time)
+    
+}
+
+window.onload = slideshow();
