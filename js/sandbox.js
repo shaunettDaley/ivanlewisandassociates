@@ -102,7 +102,7 @@ sliderInfo[2] = " Affordable, Reliable, Professional and Straightforward. Keep i
 sliderInfo[3] = " You are one of kind , we love and appreciate you ";
 
 let slideshow = () => {
-if( i < slideInfo.lenght-1){
+if( i < sliderInfo.lenght-1){
 testimonal_slide.textContent = sliderInfo[i];
 
 }else{
