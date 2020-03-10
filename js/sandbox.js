@@ -104,7 +104,7 @@ sliderInfo[3] = " You are one of kind , we love and appreciate you ";
 let slideshow = () => {
 if( i < sliderInfo.length-1){
 testimonal_slide.textContent = sliderInfo[i];
-console.log(sliderInfo[i]);
+//console.log(sliderInfo[i]);
 }else{
     
     i = 0;
