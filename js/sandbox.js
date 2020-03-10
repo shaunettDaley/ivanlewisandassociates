@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
 let testimonal_slide = document.querySelector('.testimonal-slides');
 let i = 0;
 let timer = 3000;
-let slideInfo = [];
+let sliderInfo = [];
 
 sliderInfo[0] = " Thank you Mr. Lewis we appreciate your service and your professionality ";
 sliderInfo[1] = " You are the best around time ";
