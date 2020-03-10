@@ -112,7 +112,7 @@ testimonal_slide.textContent = sliderInfo[i];
 setTimeout(()=> {
    slideshow(); 
     
-},time)
+},timer)
     
 }
 
